@@ -6,6 +6,14 @@ class CalculadoraRemota:
     def somar(self, a, b):
         return a + b
 
+    def subtracao(self, a, b):
+        return a - b
+    
+    def multiplicacao(self, a, b):
+        return a - b
+    
+    def divisao(self, a, b):
+        return a - b
 # Iniciar o servidor Pyro
 def main():
     daemon = Pyro4.Daemon()  # Cria um daemon para o servidor
